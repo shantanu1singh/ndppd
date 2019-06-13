@@ -7,7 +7,7 @@ fi
 
 cat <<EOF > /tmp/ndppd.conf
 route-ttl 5000
-proxy eth0 {
+proxy enxa0cec803656f {
   rule $1 {
     auto
   }
